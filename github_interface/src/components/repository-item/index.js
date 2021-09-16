@@ -3,9 +3,9 @@ import * as S from './styled'
 
 const RepositoryItem = ({name, linkToRepo, fullname}) => {
     return (
-        <S.WrapperRepoItem>
-            <h2>{name}</h2>
-            <h4>/----------/</h4>
+        <S.Wrapper>
+            <h2>{name}</h2>            
+            <br />
             
             <a href= {linkToRepo}
                target="_blank"
@@ -13,7 +13,7 @@ const RepositoryItem = ({name, linkToRepo, fullname}) => {
                 {fullname}
             </a>
                          
-        </S.WrapperRepoItem>
+        </S.Wrapper>    
     )
 }
 

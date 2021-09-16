@@ -71,6 +71,7 @@ export const WrapperTabPanel = styled (TabPanel)`
     font-weight: bold;
     margin-top: -10px;
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 
    
     &.is-selected {
@@ -82,7 +83,7 @@ export const WrapperTabPanel = styled (TabPanel)`
         border-bottom-left-radius: 16px;
         border-bottom-right-radius: 16px;
         border-bottom: 1px solid #191970;
-        background-color: #7FFFD4;
+        background-color: #40E0D0;
     }
 `;
 
@@ -92,7 +93,6 @@ export const WrapperList = styled.div`
   flex-wrap: wrap;
   padding: 10px;
 `;
-
 
 
 
